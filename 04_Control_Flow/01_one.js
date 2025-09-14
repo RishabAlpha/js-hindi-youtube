@@ -40,7 +40,7 @@ const loggedinFromGoogle = false
 const loggedinFromEmail = true
 
 // and condn
-if (userLoggedIn && debitCard && ) {
+if (userLoggedIn && debitCard ) {
     console.log("Allow to buy course");
 }
 // or condn
