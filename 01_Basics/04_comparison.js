@@ -1,3 +1,7 @@
+
+// String Coersion for comparison operators - 
+// it convert the string into number then perform the numeric operations.
+
 // console.log("2" > 1);
 // console.log("02" > 1);
 

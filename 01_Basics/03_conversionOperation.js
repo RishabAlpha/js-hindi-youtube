@@ -4,8 +4,8 @@
 // console.log(typeof(score));
 
 // let valueInNumber = Number(score);
-// console.log(typeof valueInNumber);
-// console.log(valueInNumber);
+// console.log(typeof valueInNumber); // >> number
+// console.log(valueInNumber); // >> NaN
 
 // "33" => 33
 // "33abc" => NaN
@@ -15,7 +15,7 @@
 
 // let booleanIsLoggedIn = Boolean(isLoggedIn)
 
-// console.log(booleanIsLoggedIn);
+// console.log(booleanIsLoggedIn); // >> true
 
 // 1 => true; 0=> false
 // "" => false
@@ -49,11 +49,19 @@
 
 // console.log(str3);
 
-// primitive datatype - performon the basis of first number datatype
+// primitive datatype - perform on the basis of first number datatype
+
+// type coercion -- for "+" operator in js works left to right, 
+// should contain one string datatype from two operands , 
+// it converts string to other & perform string concatenation
+
 // console.log("1" + 2);
 // console.log(1 + "2");
 // console.log("1" + 2 +2);
 // console.log(1 + 2 + "2");
+
+
+// unary plus operator is a shortcut for converting a value into its numeric representation
 
 // console.log(+true);
 // console.log(+"");

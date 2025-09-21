@@ -7,6 +7,9 @@ const repoCount = "1"
 
 const HypenName = new String("Hyper-nation-game-name")
 
+// console.log(typeof HypenName);
+
+
 // console.log(HypenName[1]);
 // console.log(HypenName.__proto__);
 
